@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  
+<!-- 此配置文件可以不要，MyBatis和Spring整合后都写到spring.xml里 -->
+
+<configuration>
+
+	<!-- 开启驼峰命名法，数据库中的下划线列名自动映射为驼峰命名格式，简化查询写法 -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+
+</configuration>
